@@ -6,19 +6,35 @@ h2              { font-size: 1.2em; }
 
 p, dd, dt               { color: #666666;}
 
-div {
-    background-color: lightgrey;
-    width: 150px;
-    border: 15px solid orange;
-    padding: 15px;
-    margin: 15px;
+.button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0 0 20px;
+    cursor: pointer;
 }
-a {text-decoration: none; color:#FF3333; font-size: .75em;}
+
+div.menuItem {
+	width: 300px;
+    background-color: black;
+    color: orange;
+    border: 5px solid orange;
+    border-radius: 25px;
+    margin: 5px 20px 20px 20px;
+    padding: 20px;
+}
+
+a {text-decoration: none; padding: 5px; color:#FF3333; font-size: 1em;}
 
 .pane {position:absolute; left: 25%; border: 2px solid;
     border-radius: 25px; padding: 5px; margin: 5px; border-color: #999999; background-color: #333333 }
 .header         {left:50%; text-align: center;}
-.name {width:50%;display: inline-block; float: left;}
+.name {width:100%;display: inline-block;text-align: left; font-weight:bold;}
 .description {}
 .price {text-align: right; width:50%; float: right; }
 .editdeletepane{}
